@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥 PAYMENT DANAR STORE 🔥</title>
+    <meta name="description" content="PAYMENT DANAR STORE">
+    <link rel="canonical" href="https://files.catbox.moe/cryflo.jpg">
+    <meta property="og:url" content="https://linktr.ee/danarr.anak.baik">
+    <meta property="og:title" content="PAYMENT DANAR STORE">
+    <meta property="og:image" content="https://linktr.ee/danarr.anak.baik">
+    <meta name="apple-mobile-web-app-title" content="PAYMENT DANAR STORE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #0c0c0c;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+      .title {
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .payment-method {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 10px;
+        margin: 10px auto;
+        border-radius: 10px;
+        width: 300px;
+      }
+      .copy-button {
+        background: #4169E1;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="title">🔥 PAYMENT DANAR STORE 🔥</h1>
+    <p>Penyedia Aplikasi Premium Murah</p>
+
+    <div class="payment-method">
+      <p>DANA: <span id="dana">085669723793</span></p>
+      <button class="copy-button" onclick="copyText('085669723793')">Salin</button>
+    </div>
+
+    <div class="payment-method">
+      <p>OVO: <span id="ovo">085669723793</span></p>
+      <button class="copy-button" onclick="copyText('085669723793')">Salin</button>
+    </div>
+
+    <div class="payment-method">
+      <p>GOPAY: <span id="gopay">085669723793</span></p>
+      <button class="copy-button" onclick="copyText('085669723793')">Salin</button>
+    </div>
+
+    <button class="copy-button" onclick="window.location.href='https://linktr.ee/danarr.anak.baik'">Info Lengkap</button>
+
+    <script>
+      function copyText(text) {
+        navigator.clipboard.writeText(text).then(function() {
+          alert("Nomor berhasil disalin: " + text);
+        }, function(err) {
+          alert("Gagal menyalin teks: " + err);
+        });
+      }
+    </script>
+  </body>
+</html>
